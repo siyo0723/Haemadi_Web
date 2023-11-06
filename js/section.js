@@ -96,14 +96,8 @@ if (typeof jQuery == 'undefined') {
             const fixed = $('.fixed2');
             
             const boat_1 = $('.content_boat1');
-            const boatUrl_1 = '../source/boat_1-1.png';
-            const boat_2 = $('.content_boat2');
-            const boatUrl_2 = '../source/boat_2.png';
-            const boat_3 = $('.content_boat3');
-            const boatUrl_3 = '../source/boat_3.png';
-            const boat_4 = $('.content_boat4');
-            const boatUrl_4 = '../source/boat_4.png';
-
+            const boatUrl_1 = './source/boat_1-1.png';
+            
             const position = (scrollTop - textTop + 500) / textHeight;
 
             if (position >= 0 && position < 0.25) {
