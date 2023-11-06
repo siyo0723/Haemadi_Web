@@ -108,31 +108,31 @@ if (typeof jQuery == 'undefined') {
 
             if (position >= 0 && position < 0.25) {
                 $('.content_boat1').css('opacity', 1); // 나타나게 함
-                boat_1.css('background-image', 'url(' + boatUrl_1 + ')');
+                boat_1.css('background-image', 'url(' + boatUrl_2 + ')');
                 $('.content_boat2').css('opacity', 0); // 숨김
                 $('.content_boat3').css('opacity', 0); // 숨김
                 $('.content_boat4').css('opacity', 0); // 숨김
             } else if (position >= 0.25 && position < 0.40) {
                 $('.content_boat2').css('opacity', 1); // 나타나게 함
-                boat_2.css('background-image', 'url(' + boatUrl_1 + ')');
+                boat_2.css('background-image', 'url(' + boatUrl_2 + ')');
                 $('.content_boat1').css('opacity', 0); // 숨김
                 $('.content_boat3').css('opacity', 0); // 숨김
                 $('.content_boat4').css('opacity', 0); // 숨김
             } else if (position >= 0.40 && position < 0.60) {
                 $('.content_boat3').css('opacity', 1); // 나타나게 함
-                boat_3.css('background-image', 'url(' + boatUrl_1 + ')');
+                boat_3.css('background-image', 'url(' + boatUrl_2 + ')');
                 $('.content_boat1').css('opacity', 0); // 숨김
                 $('.content_boat2').css('opacity', 0); // 숨김
                 $('.content_boat4').css('opacity', 0); // 숨김
             } else if (position >= 0.60 && position < 0.85) {
                 $('.content_boat4').css('opacity', 1); // 나타나게 함
-                boat_4.css('background-image', 'url(' + boatUrl_1 + ')');
+                boat_4.css('background-image', 'url(' + boatUrl_2 + ')');
                 $('.content_boat1').css('opacity', 0); // 숨김
                 $('.content_boat2').css('opacity', 0); // 숨김
                 $('.content_boat3').css('opacity', 0); // 숨김
             } else if (position >= 0.85 && position < 0.99) {
                 $('.content_boat4').css('opacity', 0); 
-                boat_4.css('background-image', 'url(' + boatUrl_1 + ')');
+                boat_4.css('background-image', 'url(' + boatUrl_2 + ')');
             }
 
 
