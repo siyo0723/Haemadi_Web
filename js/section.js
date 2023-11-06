@@ -96,7 +96,7 @@ if (typeof jQuery == 'undefined') {
             const fixed = $('.fixed2');
             
             const boat_1 = $('.content_boat1');
-            const boatUrl_1 = '../source/boat_1.png';
+            const boatUrl_1 = '../source/boat_1-1.png';
             const boat_2 = $('.content_boat2');
             const boatUrl_2 = '../source/boat_2.png';
             const boat_3 = $('.content_boat3');
@@ -132,7 +132,7 @@ if (typeof jQuery == 'undefined') {
                 $('.content_boat3').css('opacity', 0); // 숨김
             } else if (position >= 0.85 && position < 0.99) {
                 $('.content_boat4').css('opacity', 0); 
-                boat_4.css('background-image', 'url(' + boatUrl_2 + ')');
+                boat_4.css('background-image', 'url(' + boatUrl_1 + ')');
             }
 
 
