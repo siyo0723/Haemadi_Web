@@ -1,0 +1,31 @@
+/* navbar */
+
+.navbar { width: 100%; left: 0; position: fixed; z-index: var(--nav-index); transition: 0.7s all; height: 70px; } 
+
+.navbar-default { max-width: 1140px; width: 100%; height: 100%; margin: auto; } 
+
+.navbar-default>.navbar_inner-container { width: 92%; height: 100%; display: flex; margin: 0 auto; max-width: calc(100% - 48px); } 
+
+.navbar_content { display: flex; flex: 1; max-height: 100%; justify-content: space-between; } 
+
+.navbar_menu { display: flex; align-items: center; padding: 0; margin-right: 80px; } 
+
+.navbar_item { padding: 8px 16px; white-space: nowrap; height: 100%; list-style: none; display: flex; align-items: center; } 
+
+.navbar_item>a { padding: 22px 30px; font-size: 20px; line-height: 20px; border-radius: 8px; border: 0; cursor: pointer; text-align: left; color: var(--white-background); font-weight: 600; } 
+
+.navbar_menu-logo { width: 130px; height: 77px; text-align: center;}
+
+.navbar_menu-logo img { width: 70px; margin-top: 5px;}
+
+/* change navbar */
+
+.navbar-fixed { width: 100%; left: 0; position: fixed; z-index: 49; background: #dde2ffb7; transition: 0.7s all; height: 80px; } 
+
+.navbar-fixed a { padding: 12px 30px; font-size: 20px; line-height: 20px; border-radius: 8px; border: 0; cursor: pointer; text-align: left; color: var(--top-color); font-weight: 600; } 
+
+/* movetotop */
+
+.btn-moveTop { position: fixed; right: 60px; bottom: 35px; width: 90px; height: 89px; background-color: transparent; border: none; background-image: url("../source/gotop01.png"); cursor: pointer; display: none; } 
+
+.btn-moveTop:hover { background-image: url("../source/gotop02.png"); transition: 0.5s ease-out; } 
