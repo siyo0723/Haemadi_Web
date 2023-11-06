@@ -97,6 +97,9 @@ if (typeof jQuery == 'undefined') {
             
             const boat_1 = $('.content_boat1');
             const boatUrl_1 = './source/boat_1-1.png';
+            const boat_2 = $('.content_boat2');
+            const boat_3 = $('.content_boat3');
+            const boat_4 = $('.content_boat4');
             
             const position = (scrollTop - textTop + 500) / textHeight;
 
